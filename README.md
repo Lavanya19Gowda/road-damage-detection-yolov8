@@ -1,4 +1,9 @@
 # Road Damage Detection using YOLOv8
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Object%20Detection-orange)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Deep%20Learning-green) 
+
 An object detection system built with YOLOv8 for identifying cracks and potholes in road surface images. 
 
 ## Project Overview 
