@@ -110,6 +110,17 @@ Some potholes are missed due to limited pothole training samples.
 
 ![Missed Detection](predictions/pothole_missed_detection.jpg.jpg)
 
+## Project Structure
+
+road-damage-detection-yolov8
+│
+├── predictions/        # Example model prediction outputs
+├── data.yaml           # YOLO dataset configuration
+├── requirements.txt    # Project dependencies
+├── .gitignore          # Git ignored files
+├── LICENSE             # Repository license
+└── README.md           # Project documentation
+
 ## How to Run
 
 Install dependencies:
