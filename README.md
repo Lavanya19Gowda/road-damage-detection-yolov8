@@ -110,6 +110,8 @@ Some potholes are missed due to limited pothole training samples.
 
 ![Missed Detection](predictions/pothole_missed_detection.jpg.jpg)
 
+---
+
 ## Project Structure
 ```
 road-damage-detection-yolov8
@@ -122,6 +124,8 @@ road-damage-detection-yolov8
 └── README.md           # Project documentation
 ```
 
+---
+
 ## How to Run
 
 Install dependencies:
@@ -131,6 +135,18 @@ pip install ultralytics
 Run inference: 
 
 yolo detect predict model=yolov8n.pt source=path_to image
+
+---
+
+## Future Improvements
+
+Several improvements could further enhance the performance of this system:
+
+- Increase the number of pothole samples to address class imbalance.
+- Apply data augmentation techniques to improve model generalization.
+- Experiment with larger YOLO models (YOLOv8s, YOLOv8m) for better detection accuracy.
+- Introduce bounding box refinement to better separate cracks from potholes.
+- Deploy the model as an API or integrate it into a real-time road monitoring system.
 
 ---
 
