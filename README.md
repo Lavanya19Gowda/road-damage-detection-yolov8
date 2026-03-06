@@ -111,7 +111,7 @@ Some potholes are missed due to limited pothole training samples.
 ![Missed Detection](predictions/pothole_missed_detection.jpg.jpg)
 
 ## Project Structure
-
+```
 road-damage-detection-yolov8
 │
 ├── predictions/        # Example model prediction outputs
@@ -120,6 +120,7 @@ road-damage-detection-yolov8
 ├── .gitignore          # Git ignored files
 ├── LICENSE             # Repository license
 └── README.md           # Project documentation
+```
 
 ## How to Run
 
