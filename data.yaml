@@ -1,0 +1,8 @@
+path: C:/Users/lavanyagowda/crack-detection-system/RDD_SPLIT
+
+train: train/images
+val: val/images
+
+names:
+  0: crack
+  1: pothole 
