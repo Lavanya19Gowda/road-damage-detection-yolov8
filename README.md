@@ -83,27 +83,27 @@ Some potholes are missed due to limited representation in the training dataset.
 ### Crack Detection
 The model correctly identifies longitudinal cracks.
 
-![Crack Detection](predictions/crack_detection_1.jpg)
+![Crack Detection](predictions/crack_detection_1.jpg.jpg)
 
 ### Multiple Crack Detection
 The model detects multiple damage regions within the same image. 
 
-![Multiple Cracks](predictions/multiple_crack_detection.jpg)
+![Multiple Cracks](predictions/multiple_crack_detection.jpg.jpg)
 
 ### Crack Misclassified as Pothole
 Wide cracks may sometimes be classified as potholes due to visual similarity. 
 
-![Misclassification](predictions/crack_misclassified_as_pothole.jpg)
+![Misclassification](predictions/crack_misclassified_as_pothole.jpg.jpg)
 
 ### Crack-Pothole Confusion
 When potholes and cracks appear close together the model may classify both as cracks. 
 
-![Confusion](predictions/crack_pothole_confusion.jpg)
+![Confusion](predictions/crack_pothole_confusion.jpg.jpg)
 
 ### Missed Pothole Detection
 Some potholes are missed due to limited pothole training samples. 
 
-![Missed Detection](predictions/pothole_missed_detection.jpg)
+![Missed Detection](predictions/pothole_missed_detection.jpg.jpg)
 
 ## How to Run
 
